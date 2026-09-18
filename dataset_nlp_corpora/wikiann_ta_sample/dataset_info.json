@@ -1,0 +1,64 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 5289230,
+  "description": "",
+  "download_size": 1342418,
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "O",
+          "B-PER",
+          "I-PER",
+          "B-ORG",
+          "I-ORG",
+          "B-LOC",
+          "I-LOC"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "List"
+    },
+    "langs": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "spans": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6631648,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5289230,
+      "num_examples": 15000,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
